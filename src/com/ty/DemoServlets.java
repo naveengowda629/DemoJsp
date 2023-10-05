@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 public class DemoServlets extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException   {
-		String name="SHIVA ABCD"; 
+		String name="SHIVA ABCDE"; 
 		
 		request.setAttribute("label", name);
 		request.getRequestDispatcher("display.jsp").forward(request, response);
